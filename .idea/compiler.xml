@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="many-to-many" />
+        <module name="Hql" />
+        <module name="eager-fetching" />
+        <module name="lazy-fetching" />
+        <module name="cascade" />
+        <module name="one-to-one" />
+        <module name="one-to-many" />
+        <module name="SQl" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SQL" target="1.8" />
+      <module name="Sql" target="1.8" />
+      <module name="SQL (1)" target="1.8" />
+      <module name="sql (2)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
